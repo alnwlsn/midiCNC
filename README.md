@@ -7,3 +7,8 @@ The tricky part is figuring out the distance and feedrate commands, which affect
 
 **vpool2.mid** is an example midi, extracted from an old DOS game's sound card output. 
 **output.nc** is what you get when running the program (raw gcode) 
+
+##midiorch.py
+This is an offshoot where I used the same principle to try and convert MIDIs to an archaic format for the TRS-80. The Orchestra-85 (and the earlier Orchestra-80) were music solutions for the TRS-80 line of computers. The hardware was pretty much a resistor DAC hooked up to a latch and address decoder, which went directly to one of the Z80's output ports. There was no sound chip of any kind; instead, the auto was completely generated in software - it was an early synthesizer program. Anyway, the software used to program it has this weird syntax unlike anything I've ever seen. While there is a large archive of .ORC files out there still, I wanted to try making new music, and converting some MIDI files seemed like a good start. 
+
+This kind of works, but there's some obvious missing pieces.
